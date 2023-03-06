@@ -1,0 +1,58 @@
+*{
+    font-family: 'Lexend Deca';
+    color: #FAFAFA;
+    margin: 0;
+    text-decoration: none;
+}
+
+.video_background{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -5;
+}
+
+.video_background video {
+    min-width: 100vw;
+}
+
+.blur_effect {
+    position: absolute;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(2, 32, 64, 0.7);
+    filter: blur(10px);
+    width: 100%;
+    z-index: -5;
+}
+
+.presentation {
+    margin-top: 5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.presentation h1{
+    font-size: 3rem;
+}
+
+
+.whatsapp_buttom{
+    background-color: rgba(146, 255, 107, 0.05);
+    margin: 0.2rem;
+    padding: 1rem 0.3rem;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    border:1px solid #92ff6b;
+    border-radius: 0.3rem;
+    align-items: center;
+    justify-items: center;
+    width: 27rem;
+}
